@@ -1,0 +1,15 @@
+{
+  "employees": [
+    { "id": 1, "name": "Alice Smith", "role": "CEO", "salary": 250000, "ssn": "000-11-2222" },
+    { "id": 2, "name": "Bob Johnson", "role": "CTO", "salary": 180000, "ssn": "333-44-5555" }
+  ],
+  "internal_config": {
+    "db_connection": "postgresql://admin:super_secret_pw_123@internal-db:5432/corp_data",
+    "backup_server": "10.0.0.44"
+  },
+  "fake_api_keys": {
+    "aws_access_key": "AKIAIOSFODNN7EXAMPLE",
+    "aws_secret_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "stripe_sk": "sk_live_51HxxxxxFakeKeyxxxxxx"
+  }
+}
